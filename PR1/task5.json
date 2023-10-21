@@ -1,0 +1,42 @@
+{
+  "people" :
+  [
+    {
+      "name" : "Anton Protsenko",
+      "age" : "21",
+      "sex" : "male"
+    }
+  ,
+    {
+      "name" : "Leonid Ite",
+      "age" : "20",
+      "sex" : "male"
+    }
+  ,
+    {
+      "name" : "Alex Fox",
+      "age" : "28",
+      "sex" : "male"
+    }
+  ,
+
+    {
+      "name" : "Olga Fox",
+      "age" : "14",
+      "sex" : "female"
+    }
+    ,
+    {
+      "name" : "Leonid Pro",
+      "age" : "7",
+      "sex" : "male"
+    }
+  ,
+
+    {
+      "name" : "Ivan",
+      "age" : "58",
+      "sex" : "male"
+    }
+  ]
+}
