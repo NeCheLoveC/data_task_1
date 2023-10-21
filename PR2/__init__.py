@@ -96,3 +96,37 @@ b = np.ones(10, dtype='int64')
 b = b * 2
 arr = a * b
 print(arr)
+
+# %%
+# 3
+
+import numpy as np
+
+# Создание матрицы arr
+arr = np.arange(9).reshape(3, 3)
+print("Исходная матрица arr:")
+print(arr)
+
+# Перестановка столбцов 2 и 3
+arr_column_swap_1 = arr.copy()
+arr_column_swap_1[:, [1, 2]] = arr[:, [2, 1]]
+print("Матрица arr после перестановки столбцов 2 и 3:")
+print(arr_column_swap_1)
+
+# Перестановка столбцов 1 и 3
+arr_column_swap_2 = arr.copy()
+arr_column_swap_2[:, [0, 2]] = arr[:, [2, 0]]
+print("Матрица arr после перестановки столбцов 1 и 3:")
+print(arr_column_swap_2)
+
+# Перестановка строк 2 и 3
+arr_row_swap_1 = arr.copy()
+arr_row_swap_1[[1, 2], :] = arr[[2, 1], :]
+print("Матрица arr после перестановки строк 2 и 3:")
+print(arr_row_swap_1)
+
+# Перестановка строк 1 и 3
+arr_row_swap_2 = arr.copy()
+arr_row_swap_2[[0, 2], :] = arr[[2, 0], :]
+print("Матрица arr после перестановки строк 1 и 3:")
+print(arr_row_swap_2)
